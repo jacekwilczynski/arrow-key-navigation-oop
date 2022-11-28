@@ -1,4 +1,4 @@
-import { Direction } from '@/src/common-types'
+import { Direction } from '@/src/Direction'
 
 // Creating this interface is questionable because:
 //   1. There is only one class implementing it.

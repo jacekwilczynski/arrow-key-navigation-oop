@@ -1,4 +1,4 @@
-import { Direction } from '@/src/common-types'
+import { Direction } from '@/src/Direction'
 import { DirectionalPickerInterface } from '@/src/DirectionalPicker/DirectionalPickerInterface'
 
 // This class looks like a decorator. It's not a "true" decorator, because a decorator should, as a rule,

@@ -1,4 +1,4 @@
-import { Direction } from '@/src/common-types'
+import { Direction } from '@/src/Direction'
 
 export interface DirectionalPickerInterface {
   pick(

@@ -1,4 +1,4 @@
-import { Direction } from '@/src/common-types'
+import { Direction } from '@/src/Direction'
 import { DirectionalPickerInterface } from '@/src/DirectionalPicker/DirectionalPickerInterface'
 
 export class ClosestElementPicker implements DirectionalPickerInterface {

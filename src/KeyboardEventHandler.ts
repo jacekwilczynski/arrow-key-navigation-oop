@@ -1,4 +1,4 @@
-import { Direction } from '@/src/common-types'
+import { Direction } from '@/src/Direction'
 import { DirectionalFinderInterface } from '@/src/DirectionalFinder/DirectionalFinderInterface'
 
 // I have not bothered to create a separate interface for this class,
@@ -6,10 +6,10 @@ import { DirectionalFinderInterface } from '@/src/DirectionalFinder/DirectionalF
 
 export class KeyboardEventHandler {
   private static readonly KEYS_TO_DIRECTIONS: Record<string, Direction> = {
-    ArrowLeft: 'left',
-    ArrowRight: 'right',
-    ArrowUp: 'up',
-    ArrowDown: 'down',
+    ArrowLeft: Direction.LEFT,
+    ArrowRight: Direction.RIGHT,
+    ArrowUp: Direction.UP,
+    ArrowDown: Direction.DOWN,
   }
 
   constructor(

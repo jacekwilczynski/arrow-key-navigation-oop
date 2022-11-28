@@ -1,4 +1,4 @@
-import { Direction } from '@/src/common-types'
+import { Direction } from '@/src/Direction'
 import { DirectionalFinderInterface } from '@/src/DirectionalFinder/DirectionalFinderInterface'
 import { DirectionalPickerInterface } from '@/src/DirectionalPicker/DirectionalPickerInterface'
 import { FinderInterface } from '@/src/Finder/FinderInterface'
